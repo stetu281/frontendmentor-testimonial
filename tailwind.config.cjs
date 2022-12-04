@@ -14,6 +14,9 @@ module.exports = {
 				lightGray: "hsl(0, 0%, 81%)",
 				lightGrayishBlue: "hsl(210, 46%, 95%)",
 			},
+			backgroundImage: {
+				"blockquote-bg": "url('/images/bg-pattern-quotation.svg')",
+			},
 		},
 	},
 	plugins: [],

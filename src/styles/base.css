@@ -4,13 +4,35 @@
 
 @font-face {
     font-family: "barlowmedium";
-    src: url(../../public/fonts/BarlowSemiCondensed-Medium.ttf);
+    src: url(./fonts/BarlowSemiCondensed-Medium.ttf);
     font-style: normal;
     font-weight: 500;
 }
 @font-face {
     font-family: "barlowSemi";
-    src: url(../../public/fonts/BarlowSemiCondensed-SemiBold.ttf);
+    src: url(./fonts/BarlowSemiCondensed-SemiBold.ttf);
     font-style: normal;
     font-weight: 600;
+}
+
+@layer components {
+    .card {
+        @apply rounded-md p-7 shadow-lg lg:rounded-xl lg:p-9;
+    }
+
+    .card.card-0 {
+        @apply bg-moderateViolet bg-[url('/images/bg-pattern-quotation.svg')] bg-no-repeat bg-[right_15%_top] bg-[length:130px] text-white md:col-span-2;
+    }
+    .card.card-1 {
+        @apply bg-vdGrayishBlue text-white lg:col-start-3 lg:col-span-1;
+    }
+    .card.card-2 {
+        @apply bg-white text-vdBlackishBlue;
+    }
+    .card.card-3 {
+        @apply bg-vdBlackishBlue text-white md:col-span-2;
+    }
+    .card.card-4 {
+        @apply bg-white md:col-span-2 lg:col-start-4 lg:row-start-1 lg:row-span-2;
+    }
 }

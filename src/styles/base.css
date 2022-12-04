@@ -17,7 +17,7 @@
 
 @layer components {
     .card {
-        @apply rounded-md p-7 shadow-lg lg:rounded-xl lg:p-9;
+        @apply rounded-md p-7 shadow-lg lg:rounded-xl lg:px-10 lg:py-6;
     }
 
     .card.card-0 {

@@ -4,13 +4,13 @@
 
 @font-face {
     font-family: "barlowmedium";
-    src: url(./fonts/BarlowSemiCondensed-Medium.ttf);
+    src: url(../fonts/BarlowSemiCondensed-Medium.ttf);
     font-style: normal;
     font-weight: 500;
 }
 @font-face {
     font-family: "barlowSemi";
-    src: url(./fonts/BarlowSemiCondensed-SemiBold.ttf);
+    src: url(../fonts/BarlowSemiCondensed-SemiBold.ttf);
     font-style: normal;
     font-weight: 600;
 }
@@ -21,7 +21,7 @@
     }
 
     .card.card-0 {
-        @apply bg-moderateViolet bg-[url('/images/bg-pattern-quotation.svg')] bg-no-repeat bg-[right_15%_top] bg-[length:130px] text-white md:col-span-2;
+        @apply bg-moderateViolet bg-[url('../images/bg-pattern-quotation.svg')] bg-no-repeat bg-[right_15%_top] bg-[length:130px] text-white md:col-span-2;
     }
     .card.card-1 {
         @apply bg-vdGrayishBlue text-white lg:col-start-3 lg:col-span-1;

@@ -27,12 +27,12 @@
         @apply bg-vdGrayishBlue text-white lg:col-start-3 lg:col-span-1;
     }
     .card.card-2 {
-        @apply bg-white text-vdBlackishBlue;
+        @apply bg-white text-vdGrayishBlue;
     }
     .card.card-3 {
         @apply bg-vdBlackishBlue text-white md:col-span-2;
     }
     .card.card-4 {
-        @apply bg-white md:col-span-2 lg:col-start-4 lg:row-start-1 lg:row-span-2;
+        @apply bg-white text-vdGrayishBlue md:col-span-2 lg:col-start-4 lg:row-start-1 lg:row-span-2;
     }
 }

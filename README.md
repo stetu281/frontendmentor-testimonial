@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://stetu281.github.io/frontendmentor-testimonial/](https://stetu281.github.io/frontendmentor-testimonial/)
 
 ### Built with
 
